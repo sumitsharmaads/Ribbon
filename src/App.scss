@@ -1,0 +1,126 @@
+html,
+body,
+#react-dom,
+#react-dom > .container-img {
+  height: 100%;
+  min-height: 620px + 48px;
+}
+
+body{
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  width: 100%;
+}
+
+.container-img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/public/icons/Ribbon-background.svg);
+  background-image: url(https://ribbon.code4demo.com/public/icons/Ribbon-background.svg);
+}
+
+.login-sub-div{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center !important;
+  flex-wrap: nowrap;
+  display: flex;
+  min-height: 728px;
+  overflow: hidden;
+}
+.login {
+  margin: auto;
+  width: 370px;
+  padding: 32px;
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  // margin-top: 100px;
+  &-title {
+    //
+    line-height: 49px;
+    color: var(--c-black);
+    text-align: center;
+    margin: 32px;
+    font-family: "Playfair Display", serif;
+  }
+  &-sub-title {
+    line-height: 32px;  
+    color: var(--c-black);
+    text-align: center;
+    margin-bottom: 52px;
+    font-family: "Playfair Display", serif;
+  }
+  & .input-verify {
+    padding: 12px 0;
+    & .text{
+      line-height: 15px;
+      color: #c5ab74;
+      font-weight: bold;
+      font-size: 0.79rem;
+      font-family: "Playfair Display", serif;
+    }
+    & > input{
+      padding: 3px 0;
+    padding-right: 51%;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #c5ab74;
+    height: 28px;
+    box-shadow: none !important;
+    outline: 0 !important;
+    font-size: 15px;
+    }
+  }
+  & .btn{
+    margin-top: 52px;
+    font-weight: 500;
+    font-size: 1rem;
+    display: block;
+    border-radius: 4px;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  & > &-footer {
+    margin: 24px 0 32px 0;
+    text-align: center;
+  }
+  & .forgot-password {
+    color: #c5ab74;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.text-heading{
+  font-weight: bold;
+  font-size: 2.281rem;
+  line-height: 41px;
+  font-family: "Playfair Display", serif;
+}
+.text-subheading{
+  font-weight: normal;
+  font-size: 1.802rem;
+  font-family: "Playfair Display", serif;
+}
+.login-btn{
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+}
+.button-size {
+  padding: 0px 152px;
+}
+.footer{
+  font-weight: normal;
+  font-size: 0.889rem;
+  line-height: 16px;
+}
